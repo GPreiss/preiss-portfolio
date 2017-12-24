@@ -12,22 +12,35 @@
     text-shadow: 1px 1px black;
     margin-top: 64%;
     margin-right: 42%;
-  h3{
-    margin-bottom: 2px;
+    h3{
+      margin-bottom: 2px;
+      font-family: 'Roboto Slab', serif;
+    }
+    p{
+      font-size: 20px;
+      margin-bottom: 0px;
+      font-weight: lighter;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: 'Open Sans', serif;
+    }
   }
-  p{
-    font-size: 20px;
-    margin-bottom: 0px;
-    font-weight: lighter;
-    color: rgba(255, 255, 255, 0.8);
-  }
-}
 }
 .profile-card{
   height: 50vh;
-    width: 361px;
-    float: right;
-    padding-top: 16%;
+  width: 361px;
+  float: right;
+  padding-top: 16%;
+  margin-right: 13px;
+  h1{
+    font-family: 'Roboto Slab', serif;
+  }
+  p{
+    font-family: 'Open Sans', serif;
+    .fa{
+      color: red;
+      opacity: 0.6;
+    }
+  }
 }
 
 
