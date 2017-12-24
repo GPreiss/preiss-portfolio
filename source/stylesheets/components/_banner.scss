@@ -8,6 +8,8 @@
   color: white;
   text-align: center;
   float: left;
+  margin-left: 13px;
+  margin-right: 13px;
   .card-content{
     text-shadow: 1px 1px black;
     margin-top: 64%;
@@ -39,6 +41,20 @@
     .fa{
       color: red;
       opacity: 0.6;
+    }
+  }
+  .contact-links {
+    display: flex;
+    align-items: center;
+    a {
+      color: black;
+      opacity: 0.25;
+      text-decoration: none;
+      font-size: 24px;
+      padding: 0px 10px;
+      &:hover{
+        opacity: 1;
+      }
     }
   }
 }
