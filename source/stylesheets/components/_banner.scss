@@ -31,8 +31,7 @@
   height: 50vh;
   width: 361px;
   float: right;
-  padding-top: 16%;
-  margin-right: 13px;
+  padding-top: 16% !important;
   h1{
     font-family: 'Roboto Slab', serif;
   }
@@ -43,20 +42,37 @@
       opacity: 0.6;
     }
   }
-  .contact-links {
-    display: flex;
-    align-items: center;
-    a {
-      color: black;
-      opacity: 0.25;
-      text-decoration: none;
-      font-size: 24px;
-      padding: 0px 10px;
-      &:hover{
-        opacity: 1;
-      }
+}
+.contact-links {
+  display: flex;
+  align-items: center;
+  margin-left: 63px;
+  a {
+    color: black;
+    opacity: 0.25;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    &:hover{
+      opacity: 1;
     }
   }
+}
+@media screen and (max-width: 400px) {
+ .card {
+  float: none;
+  margin-right:0;
+  border:0;
+  width: 350px !important;
+  height: 350px !important;
+  .card-content{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+}
+.profile-card{
+  padding: 8px;
+}
 }
 
 
