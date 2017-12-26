@@ -48,3 +48,24 @@
   margin-top: 30px;
   margin-bottom: 75px;
 }
+@media screen and (max-width: 400px) {
+  .medico-card{
+    height: 192px;
+    width: 375px;
+    margin-left: 0;
+  }
+  .radar-card{
+    height: 192px !important;
+    width: 375px !important;
+    margin-left: 0 !important;
+    .radar-title{
+      font-size: 20px !important;
+      padding-top: 147px !important;
+    }
+  }
+  .medium-card{
+    height: 207px !important;
+    width: 375px !important;
+    margin-left: 0 !important;
+  }
+}
