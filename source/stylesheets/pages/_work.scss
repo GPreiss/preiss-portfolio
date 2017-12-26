@@ -1,0 +1,50 @@
+.work-container{
+  p{
+    opacity: 0.8;
+  }
+}
+.medico-card{
+  background-size: cover;
+  height: 322px;
+  width: 611px;
+  margin-left: 335px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.radar{
+  a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+  .radar-card{
+    background-size: cover;
+    height: 322px;
+    width: 611px;
+    margin-left: 335px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    h5{
+      font-size: 25px;
+      padding-top: 255px;
+    }
+  }
+}
+.video-card{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.medium-icon{
+  margin-bottom: 12px;
+}
+.medium-card{
+  background-size: cover;
+  height: 334px;
+  width: 611px;
+  margin-left: 335px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
