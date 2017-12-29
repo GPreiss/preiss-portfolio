@@ -1,19 +1,20 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Gabriela's Portfolio</title>
-    <link href="stylesheets/application-06ad2a79.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/icon-d9b98e5d.png" rel="icon" type="image/png" />
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="navbar-wagon">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title>Gabriela's Portfolio</title>
+  <link href="stylesheets/application-b6f0019f.css" rel="stylesheet" />
+  <script src="javascripts/application-93de88c9.js"></script>
+  <link href="images/icon-d9b98e5d.png" rel="icon" type="image/png" />
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="navbar-wagon">
   <!-- Logo -->
   <a href='index.html' class="navbar-wagon-brand">
     <img src="images/icon-d9b98e5d.png" width="50" alt="Icon" />
@@ -24,6 +25,7 @@
 
     <a href="about.html" class="navbar-wagon-item">About</a>
     <a href="work.html" class="navbar-wagon-item">Work</a>
+    <p class="navbar-wagon-item" id="date">Dec 29</p>
   </div>
 
 
@@ -42,7 +44,7 @@
   </div>
 </div>
 
-    <div class="home-container">
+  <div class="home-container">
   <div class="home" style="width: 100%">
       <div class="card" style="background-image: url('images/profile_pic-f9fde395.jpg'); width: 736px; left: 380px;">
         <div class="card-content text-left">
@@ -68,5 +70,13 @@
 </div>
 
 
-  </body>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    window.sr = ScrollReveal({ duration: 2000 });
+    sr.reveal('.medico-container', 50);
+    sr.reveal('.radar-container', 50);
+    sr.reveal('.extra-container', 50);
+    sr.reveal('.medium-container', 50);
+  </script>
+</body>
 </html>
