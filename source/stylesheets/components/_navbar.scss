@@ -40,6 +40,15 @@
     text-decoration: none;
   }
 }
+#date{
+  margin: 0 0 0 !important;
+  &:hover{
+    opacity: 1 !important;
+    color: black;
+    text-decoration: none;
+    cursor: default;
+  }
+}
 
 /* Navbar link */
 

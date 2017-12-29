@@ -9,6 +9,8 @@
 
     <%= link_to 'About', '/about.html', class: 'navbar-wagon-item'  %>
     <%= link_to 'Work', '/work.html', class: 'navbar-wagon-item' %>
+    <% today_string = Date.today.strftime("%b %d") %>
+    <p class="navbar-wagon-item" id="date"><%= today_string %></p>
   </div>
 
 
