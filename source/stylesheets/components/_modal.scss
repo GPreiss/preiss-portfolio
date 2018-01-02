@@ -17,18 +17,22 @@
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 60%;
+    height: 54%;
+  }
+  p{
+    margin: 0 0 16.5px;
   }
   .formspree{
     input[type=email] {
-      margin-bottom: 0.5em;
+      margin-bottom: 1.5em;
       font-size: 0.8em;
       border: 1px solid #ddd;
       background: #fff;
       padding: 0.9em;
       transition: all 0.3s ease-in-out;
       width: 100%;
-      height: 3em !important;
+      height: 4em !important;
     }
 
     #msg-area form textarea {
@@ -42,21 +46,23 @@
       padding: 0.9em;
       transition: all 0.3s ease-in-out;
       width: 100%;
-      height: 10.3em;
+      height: 13.3em;
+      margin-bottom: 12px;
     }
     button, a.button {
       font-size: 1em;
       text-transform: uppercase;
       font-weight: 600;
-      border: 2px solid #359173;
-      color: #359173;
+      border: 2px solid red;
+      color: red;
+      opacity: 0.6;
       background: transparent;
       line-height: 1em;
       padding: 0.6em 0.9em;
       transition: all 0.3s ease-in-out;
+      margin: 8px;
       &:hover{
-        border-color: #2A735B;
-        color: #2A735B;
+        opacity: 1;
       }
     }
   }
