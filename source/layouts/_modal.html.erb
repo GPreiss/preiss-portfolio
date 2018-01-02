@@ -5,8 +5,9 @@
     <p>Say hi!</p>
     <div class="formview">
       <form method="POST" action="http://formspree.io/gabriela.preiss@gmail.com">
-        <input type="email" name="email" placeholder="Your email">
+        <input type="email" name="_replyto" placeholder="Your email">
         <textarea id="msg-area" name="message" placeholder="Your message"></textarea>
+        <input type="hidden" name="_next" value="thanks.html" />
         <button type="submit">Send</button>
       </form>
     </div>
