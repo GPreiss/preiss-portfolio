@@ -10,7 +10,7 @@
   <%= stylesheet_link_tag "application" %>
   <%= javascript_include_tag "application" %>
   <%= favicon_tag 'images/icon.png' %>
-
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
   <%= partial "layouts/navbar" %>
@@ -21,6 +21,7 @@
     window.sr = ScrollReveal({ duration: 2000 });
     sr.reveal('.medico-container', 50);
     sr.reveal('.radar-container', 50);
+    sr.reveal('.cocktail-container', 50);
     sr.reveal('.extra-container', 50);
     sr.reveal('.medium-container', 50);
     sr.reveal('.about-background', 50);
@@ -35,19 +36,19 @@
 
     // When the user clicks on the button, open the modal
     btn.onclick = function() {
-        modal.style.display = "block";
+      modal.style.display = "block";
     }
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
-        modal.style.display = "none";
+      modal.style.display = "none";
     }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
     }
 
   </script>
