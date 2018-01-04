@@ -7,10 +7,10 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title></title>
-  <link href="stylesheets/application-8ee6dccc.css" rel="stylesheet" />
+  <link href="stylesheets/application-ee4bbe24.css" rel="stylesheet" />
   <script src="javascripts/application-93de88c9.js"></script>
   <link href="images/icon-d9b98e5d.png" rel="icon" type="image/png" />
-
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
   <div class="navbar-wagon">
@@ -24,7 +24,7 @@
 
     <a href="about.html" class="navbar-wagon-item">About</a>
     <a href="work.html" class="navbar-wagon-item">Work</a>
-    <p class="navbar-wagon-item" id="date">Jan 02</p>
+    <p class="navbar-wagon-item" id="date">Jan 04</p>
   </div>
 
 
@@ -56,6 +56,7 @@
     window.sr = ScrollReveal({ duration: 2000 });
     sr.reveal('.medico-container', 50);
     sr.reveal('.radar-container', 50);
+    sr.reveal('.cocktail-container', 50);
     sr.reveal('.extra-container', 50);
     sr.reveal('.medium-container', 50);
     sr.reveal('.about-background', 50);
@@ -70,19 +71,19 @@
 
     // When the user clicks on the button, open the modal
     btn.onclick = function() {
-        modal.style.display = "block";
+      modal.style.display = "block";
     }
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
-        modal.style.display = "none";
+      modal.style.display = "none";
     }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
     }
 
   </script>
