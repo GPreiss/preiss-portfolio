@@ -34,9 +34,11 @@
   padding-top: 16% !important;
   h1{
     font-family: 'Roboto Slab', serif;
+    opacity: 0.9;
   }
   p{
     font-family: 'Open Sans', serif;
+    opacity: 0.9;
     .fa{
       color: red;
       opacity: 0.6;
@@ -46,13 +48,13 @@
 .contact-links {
   display: flex;
   align-items: center;
-  margin-left: 63px;
+  margin-left: 36px;
   margin-bottom: 30px;
   a {
     color: black;
     opacity: 0.25;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
     padding: 0px 10px;
     &:hover{
       opacity: 1;
